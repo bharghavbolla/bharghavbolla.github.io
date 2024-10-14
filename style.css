@@ -1,19 +1,128 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+/* Reset some default styles */
+* {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text for readability */
+}
+
+/* Navbar Styles */
 header {
-    background: #007bff;
-    color: white;
-    padding: 10px;
+    background: #007BFF; /* Blue background */
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
 }
-h1 {
-    margin: 0;
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
+
+.navbar {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home Section Styles */
+.home {
+    background: url('your-image-url.jpg') no-repeat center center/cover; /* Replace with an actual image URL */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.home-text h1 {
+    font-size: 48px;
+}
+
+.home-text h3 {
+    font-size: 24px;
+}
+
+/* Section Styles */
 section {
-    margin-top: 20px;
+    padding: 60px 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section Styles */
+.about-content {
+    text-align: left;
+}
+
+/* Skills and Services Styles */
+.skills-content, .services-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-content ul, .services-content .service-item {
+    margin-bottom: 20px;
+}
+
+/* Term Project Styles */
+.term-project {
+    background-color: #e9ecef;
+}
+
+/* Contact Section Styles */
+.contact-text {
+    text-align: center;
+}
+
+/* Button Styles */
+.btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Styles */
+.copyright {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.links a, .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.links a:hover, .social-icons a:hover {
+    text-decoration: underline;
 }
