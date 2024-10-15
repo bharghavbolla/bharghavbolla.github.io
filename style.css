@@ -40,7 +40,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 100;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -68,7 +68,7 @@ header {
 
 /* Home Section */
 .home {
-    background: url('your-hero-image-url.jpg') no-repeat center center/cover; /* Add your hero image URL */
+    background: url('your-hero-image-url.jpg') no-repeat center center/cover; /* Replace with your image URL */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -168,6 +168,10 @@ header {
 .contact-text h2 {
     font-size: var(--heading-font-size);
     color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.contact-list {
     margin-bottom: 20px;
 }
 
