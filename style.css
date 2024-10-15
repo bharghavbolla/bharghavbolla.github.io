@@ -68,23 +68,27 @@ header {
 
 /* Home Section */
 .home {
-    background-color: var(--accent-color);
+    background: url('your-hero-image-url.jpg') no-repeat center center/cover; /* Add your hero image URL */
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 10%;
     text-align: center;
+    color: white;
+}
+
+.home-text {
+    background-color: rgba(44, 62, 80, 0.7); /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .home h1 {
     font-size: var(--heading-font-size);
-    color: white;
 }
 
 .home h3 {
     font-size: var(--subheading-font-size);
-    color: #eee;
     margin-top: 10px;
 }
 
@@ -121,14 +125,6 @@ header {
     margin-bottom: 20px;
 }
 
-.skills ul {
-    padding-left: 0;
-}
-
-.skills ul li {
-    margin-bottom: 10px;
-}
-
 /* Services Section */
 .services {
     background-color: var(--primary-color);
@@ -147,11 +143,6 @@ header {
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 20px;
-}
-
-.service-item h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
 }
 
 /* Term Project Section */
@@ -180,21 +171,12 @@ header {
     margin-bottom: 20px;
 }
 
-.contact-list {
-    margin-bottom: 20px;
-}
-
 /* Footer */
 footer {
     background-color: var(--primary-color);
     padding: 20px 10%;
     text-align: center;
     color: #fff;
-}
-
-footer p {
-    margin: 0;
-    font-size: var(--paragraph-font-size);
 }
 
 /* Responsive Design */
