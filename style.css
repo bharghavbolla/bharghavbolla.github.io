@@ -17,6 +17,8 @@
     --primary-color: #ff4081; /* Pink */
     --secondary-color: #e0e0e0; /* Light Gray */
     --highlight-color: #ffd700; /* Gold */
+    --interest-bg-color: #282c34; /* Dark background for interests */
+    --interest-text-color: #ffffff; /* White text for interests */
     --heading-font-size: 4rem;
     --subheading-font-size: 2.5rem;
     --paragraph-font-size: 1rem;
@@ -124,6 +126,29 @@ section.about {
     margin-bottom: 20px;
     color: var(--secondary-color);
     line-height: 1.5;
+}
+
+/* Interests Section */
+section.interests {
+    background-color: var(--interest-bg-color);
+    padding: 60px 5%;
+    color: var(--interest-text-color);
+    text-align: center;
+}
+
+.interests .heading h2 {
+    font-size: var(--heading-font-size);
+    margin-bottom: 10px;
+    color: var(--highlight-color);
+}
+
+.interests-content ul {
+    padding: 0;
+}
+
+.interests-content li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--interest-text-color);
 }
 
 /* Skills Section */
@@ -256,7 +281,8 @@ section.contact {
     .about,
     .skills,
     .services,
-    .contact {
+    .contact,
+    .interests {
         padding: 60px 2%;
     }
 
